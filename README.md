@@ -29,6 +29,6 @@ A secure, encrypted password manager built with Python and Tkinter. Features mod
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com//password-manager.git
-cd mypass-password-manager
+git clone https://github.com//MyPass.git
+cd MyPass
 ```
