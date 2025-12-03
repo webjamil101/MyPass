@@ -1,7 +1,13 @@
-# Python
+# =========================
+# Python Bytecode & Cache
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
+
+# =========================
+# Python Build & Packaging
+# =========================
 *.so
 .Python
 build/
@@ -22,30 +28,40 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual Environment
+# =========================
+# Virtual Environments
+# =========================
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
 
-# IDE
+# =========================
+# IDE / Editor Files
+# =========================
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Database and keys
+# =========================
+# Databases & Secret Keys
+# =========================
 passwords.db
 master.key
 *.db
 *.key
 
+# =========================
 # Logs
+# =========================
 *.log
 password_manager.log
 
-# OS
+# =========================
+# OS Generated Files
+# =========================
 .DS_Store
 .DS_Store?
 ._*
@@ -54,10 +70,14 @@ password_manager.log
 ehthumbs.db
 Thumbs.db
 
+# =========================
 # PyInstaller
+# =========================
 *.spec
 
-# Testing
+# =========================
+# Testing & Coverage
+# =========================
 .coverage
 htmlcov/
 .tox/
