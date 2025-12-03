@@ -1,0 +1,67 @@
+# ==============================================================================
+# MyPass Password Manager - Requirements
+# Core dependencies based on imports in main.py
+# ==============================================================================
+
+# Essential Libraries (used in imports)
+cryptography>=41.0.0          # Fernet encryption
+pyperclip>=1.8.2              # Clipboard operations
+
+# Python Standard Library (no installation needed)
+# - tkinter (GUI framework)
+# - random (password generation)
+# - json (data handling - though you're using SQLite)
+# - os (file operations)
+# - datetime (timestamp handling)
+# - hashlib (password hashing)
+# - secrets (cryptographically secure random)
+# - base64 (encoding/decoding)
+# - sqlite3 (database - built into Python)
+# - typing (type hints)
+
+# ==============================================================================
+# Optional Dependencies (for enhanced features)
+# ==============================================================================
+
+# For potential JSON export/import (though you're using SQLite)
+# No additional package needed for basic JSON
+
+# For enhanced password generation features
+# No additional package needed beyond standard library
+
+# For system tray integration (future feature)
+# pystray>=0.19.0
+
+# For notifications (future feature)
+# plyer>=2.0.0
+
+# For QR code generation (2FA feature)
+# qrcode>=7.0.0
+# Pillow>=10.0.0  # For QR code image handling
+
+# ==============================================================================
+# Development Dependencies (install separately)
+# ==============================================================================
+
+# Testing
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Code Quality
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+
+# Build Tools
+# pyinstaller>=6.0.0  # For creating standalone executables
+
+# ==============================================================================
+# Platform-Specific Notes
+# ==============================================================================
+
+# Windows: No additional requirements
+# macOS: No additional requirements
+# Linux: Ensure Tkinter is installed:
+#   Ubuntu/Debian: sudo apt-get install python3-tk
+#   Fedora/RHEL: sudo dnf install python3-tkinter
+#   Arch: sudo pacman -S tk
